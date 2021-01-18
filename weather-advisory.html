@@ -1,0 +1,170 @@
+<!doctype html>
+<!-- I used Paul Brokenshire's default template demonstrated during lecture
+-->
+<html lang="en">
+    <head>
+        <meta charset= "utf-8">
+        <meta name = "viewport" content = "width=device-width,
+         initial-scale = 1">
+        <title> Weather Advisory Page </title>
+        <link href = "css/normalize.css" rel= "stylesheet">
+        <link href = "css/footer.css" rel = "stylesheet">
+        <link href = "css/banner.css" rel= "stylesheet">
+        <link href = "css/weather-advisory.css" rel= "stylesheet">
+    </head>
+     <body>
+                  <header>
+           <div class= "banner-img">
+             <img src = "img/banner.jpg" alt="banner" style = "width:100%;"> </div>
+               <div class="home-button" onclick="location.href='https://project-a11.github.io/kalmont/index.html';">
+                 <div id = "kalmontrescue"> 
+                    <a href="https://project-a11.github.io/kalmont/index.html" > KALMONT MOUNTAIN RESCUE </a>
+                  </div>
+                  <div id = "logoo"> 
+                    <img src = "img/logoo.svg" alt="logo" style = "width:50%;">
+                  </div>
+                </div><!-- close of #home-button -->
+
+             <div class="banner-text">
+               <h1> <strong> 24H WEATHER ADVISORY </strong> </h1>
+               <h6> UP TO DATE KALMONT WEATHER ADVISORY </h6> 
+             </div>
+
+              <nav id="desktop-nav">
+                <ul>
+                   <li> <a href = "https://project-a11.github.io/kalmont/weather-advisory.html"> WEATHER </a> </li>
+                   <li> <a href = "https://project-a11.github.io/kalmont/cold-weather-safety.html"> SAFETY </a> </li>
+                   <li> <a href = "https://project-a11.github.io/kalmont/about-us.html" > ABOUT </a> </li>
+                   <li> <a href = "https://project-a11.github.io/kalmont/news.html"> RECENT NEWS </a> </li>
+                   <li> <a href = "https://project-a11.github.io/kalmont/training-education.html"> TRAINING </a> </li>
+                </ul>
+              </nav>
+           </header> 
+
+             <div class= "hamIcon" onclick= "toggleClass()">
+              <h1>&#9776;</h1>
+             </div>
+
+               <nav class="mainMenu">
+                  <ul>
+                    <li> <a href = "https://project-a11.github.io/kalmont/index.html"> HOME </a> </li>
+                    <li> <a href = "https://project-a11.github.io/kalmont/weather-advisory.html"> WEATHER </a> </li>
+                    <li> <a href = "https://project-a11.github.io/kalmont/cold-weather-safety.html"> SAFETY </a> </li>
+                     <li> <a href = "https://project-a11.github.io/kalmont/about-us.html" > ABOUT </a> </li>
+                     <li> <a href = "https://project-a11.github.io/kalmont/news.html"> RECENT NEWS</a> </li>
+                     <li> <a href = "https://project-a11.github.io/kalmont/training-education.html"> TRAINING </a> </li>
+                     <li> <a href = "https://project-a11.github.io/kalmont/cited-work.html"> CITATIONS </a> </li>
+                   </ul>
+                </nav>
+            <div class = "main-container">
+            <div class = "main-item">
+
+          <!-- 24 H SAFETY ADVISORY -->
+            <main>
+              <div class="heading"><h2> WEATHER CONDITION UPDATE </h2> </div>
+              <div class="equal-height-container">
+                <div class="first">
+                  <div class="first-heading">
+                    <h3>TODAY’S UPDATE</h3>
+                  </div>
+                  <div class="first-container">
+                    <div class="first-bg">
+                      <div class="first-a">
+                        <h5>KALMONT</h5>
+                        <p>SATURDAY, 9 PM, PARTLY CLOUDY</p>
+                      </div>
+                      <div class="first-b">
+                        <div class="first-b1">14 °</div>
+                        <div class="first-b2">
+                          <img src="img/cloud.svg" style = "width:75%;" alt="cloudy">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="first-c">
+                      <h5>PARTY CLOUDY</h5>
+                      <p>Current weather information for Kalmont, including Air Quality, Venting Index, Warnings and five day forecast. A live look at Kalmont road and weather conditions. </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="middle"></div>
+
+                <div class="second">
+                  <div class="second-content">
+                    <h3>THE NEXT 3 DAYS</h3>
+                  </div>
+                  <div class="second-a">
+                    <div class="second-content">
+                      <div class="second-content1">SATURDAY</div>
+                      <div class="second-content3"><img src="img/cloud.svg" alt="cloudy"></div>
+                      <div class="second-content2">15° </div>
+                      <div class="second-content4">PARTLY CLOUDY </div>
+                    </div>
+                  </div>
+                  <div class="second-b">
+                    <div class="second-content">
+                      <div class="second-content1">SUNDAY</div>
+                      <div class="second-content3"><img src="img/cloud.svg" alt="cloudy"></div>
+                      <div class="second-content22">18°</div>
+                      <div class="second-content4">PARTLY CLOUDY </div>
+                    </div>
+                  </div>
+                  <div class="second-c">
+                    <div class="second-content">
+                      <div class="second-content1">MONDAY</div>
+                      <div class="second-content33"><img src="img/sun.svg" alt="sunny"></div>
+                      <div class="second-content22">19°</div>
+                      <div class="second-content41">SUNNY</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- STATUS UPDATE -->
+              <div class="headingg"> <h3> STATUS UPDATE </h3> </div>
+              <div class="call-outs-container">
+                <div class="call-out">
+                  <h4>TRAIL UPDATE</h4>
+                  <img src="img/Group99.svg" alt="mountain">
+                </div>
+
+                <div class="call-out">
+                  <h4>MOUNTAIN UPDATE</h4>
+                  <img src="img/Group99.svg" alt="mountain">
+                </div>
+
+                <div class="call-out">
+                  <h4>SLOPE UPDATE</h4>
+                  <img src="img/Group99.svg" alt="mountain">
+                </div>
+              </div>
+            </main>
+          </div>
+        </div>
+
+        <footer>
+            <img src = "img/footer.jpg" alt="footer picture" style = "width:100%;">
+              <div class = "column-1">
+                <h4>SITE LINKS</h4>
+                <p>ABOUT</p>
+                <p>RECENT ACTIVITIES</p>
+                <P>TRAINING</P>
+                <P>GROUP MISSION</P>
+              </div>
+
+              <div class="column-2">
+                <h4>CONTACT US</h4>
+                <p>1234 KALMONT AVENUE BC V53 2C9</p>
+                <p>KALMONTMOUNTAINRESCUE.CA</p>
+                <p>TEL (604) 123-4566</p>
+              </div>
+
+              <div class="column-3">
+                <h4>FIND US</h4>
+                <img src="img/ig.png" alt="icon of instagram" width = "30" height= "30">
+                <img src="img/fb.png" alt="icon of facebook" width = "30" height= "30">
+              </div>
+          </footer>
+           <script src = "js/dropdown.js"></script>
+        </body>
+        </html>
