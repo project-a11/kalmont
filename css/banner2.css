@@ -1,0 +1,257 @@
+.banner-2 img {
+	width : 100%;
+	height: auto;
+}
+
+.hamIcon{
+	position: relative;
+	margin-left: 18.5em;
+	margin-top: -11em;
+}
+
+.hamIcon h1{
+	font-size:2.2em;
+
+}
+nav li {
+    font-weight: bolder;
+}
+
+header {
+	position: relative;
+}
+
+.logoo {
+	position: absolute;
+	top: 3em;
+	left: 4em;
+}
+
+#desktop-nav {
+	width: 53%;
+	position: absolute;
+	top: 4em;
+	right: 0;
+}
+
+.mainMenu {
+	display: none;
+}
+
+.mainMenu ul {
+	margin-top: 4em;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.mainMenu ul li {
+	width: 100%;
+	padding-bottom: 1rem;
+	text-align: center;
+}
+
+ul {
+	margin:0;
+	padding: 0;
+	display: flex;
+
+}
+
+li{
+	list-style-type: none;
+	margin: 0 1.4vw;
+	font-size: 0.9rem;
+	margin-top: 0.4em;
+}
+
+/* The following code was inspired by Jake Rocheleau's 
+"10 CSS Snippets for creating stunning animated underline text efffect" 06/08/2020 */
+
+a {
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 10px;
+    margin: 0;
+    position: relative;
+}
+
+a:hover, a:focus, a:active {
+    color: black;
+}
+
+header a:after, nav a:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: rgb(44, 117, 175);
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+header a:hover:after, nav a:hover:after { 
+    width: 100%; 
+    left: 0; 
+}
+
+
+.kalmontrescue {
+	position: absolute;
+	top: 4.3em;
+	left: 11em;
+	font-weight: bolder;
+	font-size: 1rem;
+}
+
+.banner-text {
+	bottom: 50%;
+	left: 50%;
+}
+
+h1 {
+	font-size: 3rem;
+	position: absolute;
+	top: 42%;
+	left:35%;
+}
+
+h6 {
+	font-weight: lighter;
+	font-size: 1.3rem ;
+	position: absolute;
+	top: 49%;
+	left: 40%;
+}
+
+h4{
+	transition-property: none;
+	color: black;
+}
+
+p, h2, h3{
+	color: black;
+	transition-property: none;
+}
+
+.hidden{
+	display: none;
+}
+
+.box {
+	display: -webkit-flex; 
+	display: -ms-flex; 
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-justify-content: center;
+	-ms-justify-content: center;
+	justify-content: center;
+}
+
+*, *::after, *::before {
+	box-sizing: border-box;
+}
+
+@media screen and (max-width: 1140px) {
+	.column1 {
+		width:100%;
+	}
+
+	#desktop-nav {
+		display: none;
+	}
+
+	.mainMenu {
+		display: block;
+		padding-bottom: 0rem;
+		margin-bottom: 0em;
+	}
+
+	header {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.kalmontrescue {
+		display: none;
+	}
+
+	.logoo {
+		top: 1rem;
+		left: 1rem;
+		width: 6em;
+	}
+
+	.banner-text {
+		position: absolute;
+		margin-right:0;
+		width:100%;
+		height: 100%;
+		bottom: 0%;
+	    left: 0%;
+		background-color: rgba(255, 255, 255, 60%);
+     }
+
+    .mainMenu ul {
+		margin-top: 12em;
+		display: flex;
+		flex-wrap: wrap;
+    }
+
+	.banner-text h1 {
+		position: relative;
+		font-size: 1.7em;
+	    left:0;
+	    top:34%;
+		text-align: center;
+
+	}
+
+	.banner-text h6 {
+		font-size: 0.9em;
+		text-align: center;
+		margin-left: -5.8em;
+	}
+
+	nav li {
+        font-weight:normal;
+    }
+
+    .mainMenu ul li {
+    	padding:0;
+    	margin-top:0em;
+    	font-size: 0.8em;
+    }
+}
+
+/* the following 2 blocks of code was inspired by Tube Mint's 
+"How to create hamburger menu With HTML, CSS, & JAVASCRIPT" 05/04/2019 */
+
+@media(max-width: 768px) {
+	.mainMenu {
+		display:none;
+	}
+	.mainMenu.toggleCls{
+		display:block;
+	}
+
+}
+
+@media(min-width:769px) {
+	.hamIcon{
+		display:none;
+	}
+
+	.mainMenu.toggleCls{
+		display:initial;
+	}
+}
+
+

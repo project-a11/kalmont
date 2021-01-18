@@ -1,0 +1,262 @@
+img {
+	height: auto;
+	max-width : 100%;
+}
+
+.banner-img img{
+	opacity: 80%;
+}
+.hamIcon{
+	position: relative;
+	text-align: right;
+	margin-right: 1em;
+	margin-top: -8em;
+}
+
+.banner-img {
+	opacity: 100%;
+}
+
+header {
+	position: relative;
+}
+
+#desktop-nav {
+	width: 53%;
+	position: absolute;
+	top: 4em;
+	right: 0;
+}
+
+/* the following 3 blocks of code was inspired by Tube Mint's
+"How to create hamburger menu With HTML, CSS, & JAVASCRIPT" 05/04/2019 */
+
+.mainMenu {
+	display: none;
+}
+
+.mainMenu ul {
+	margin-top: 4em;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.mainMenu ul li {
+	width: 100%;
+	padding-top: 0.6rem;
+	padding-bottom: 1rem;
+	text-align: center;
+}
+
+nav ul {
+	margin:0;
+	padding: 0;
+	display: flex;
+
+}
+
+nav li{
+	list-style-type: none;
+	margin: 0 1.4vw;
+	font-size: 0.9rem;
+	font-weight: bolder;
+}
+
+/* The following code was inspired by Jake Rocheleau's
+"10 CSS Snippets for creating stunning animated underline text efffect" 06/08/2020 */
+
+a {
+	color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+	padding: 15px 10px;
+	margin: 0;
+	position: relative;
+}
+
+a:hover, a:focus, a:active {
+    color: black;
+}
+
+header a:after, nav a:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: rgb(44, 117, 175);
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+header a:hover:after, nav a:hover:after {
+	width: 100%;
+	left: 0;
+}
+
+
+#kalmontrescue {
+	position: absolute;
+	top: 4em;
+	left: 11em;
+	font-weight: bolder;
+	font-size: 1rem;
+
+	}
+
+.banner-text {
+	position: absolute;
+	bottom: 2rem;
+	left: 7.5rem;
+	background-color: rgba(255, 255, 255, 80%);
+	width: 26em;
+}
+
+#logoo {
+	position: absolute;
+	top: 3em;
+	left: 4em;
+}
+
+.banner-text h1{
+	margin-left:2rem;
+	margin-right:2rem;
+	margin-top:1.4rem;
+	align-content: center;
+}
+
+.banner-text h6{
+	margin-left:2rem;
+	margin-right:2rem;
+	margin-top:-0.6rem;
+	margin-bottom: 1.4em;
+	align-self: center;
+}
+
+h1 {
+	font-size: 1.7rem;
+}
+
+h6 {
+	font-weight: lighter;
+	font-size: 0.8rem ;
+}
+
+h4{
+	transition-property: none;
+	color: black;
+}
+
+p, h2, h3{
+	color: black;
+	transition-property: none;
+}
+
+*, *::after, *::before {
+	box-sizing: border-box;
+}
+
+@media screen and (max-width: 55em) {
+	.column1 {
+		width:100%;
+	}
+
+	#desktop-nav {
+		display: none;
+	}
+
+	#mobile-nav {
+		display: block;
+	}
+
+	.banner-text {
+		top: 0em;
+		left: 0em;
+		align-self: center;
+		width:100%;
+		height: 100%;
+	}
+
+	.banner-text h6{
+		text-align: center;
+		font-size:0.6em;
+
+	}
+
+	.banner-text h1{
+		margin-top:2em;
+		text-align:center;
+		font-size:1.5em;
+
+    }
+
+    .mainMenu ul li {
+		padding-top: 0rem;
+		padding-bottom: 0rem;
+		font-size: 0.8em;
+    }
+
+	h1{
+		margin-bottom: 0.6em;
+		color: black;
+		font-size: 2em;
+	}
+
+	h6 {
+		color: black;
+		margin-left: 2.6em;
+		font-size: 0.8em;
+	}
+
+	header {
+		display: flex;
+		justify-content: center;
+		align-content: center;
+	}
+
+	#kalmontrescue {
+		display: none;
+	}
+
+	#logoo {
+		top: 1rem;
+		left: 1rem;
+		width: 6em;
+	}
+
+	nav li{
+		font-weight: normal;
+
+	}
+}
+
+@media(min-width: 1919px) {
+	.banner-text {
+		margin-left:14.5em;
+	}
+}
+
+/* the following 2 blocks of code was inspired by Tube Mint's
+"How to create hamburger menu With HTML, CSS, & JAVASCRIPT" 05/04/2019 */
+
+@media(max-width: 768px) {
+	.mainMenu {
+		display:none;
+	}
+	.mainMenu.toggleCls{
+		display:block;
+	}
+}
+
+@media(min-width:769px) {
+	.hamIcon{
+		display:none;
+	}
+
+	.mainMenu.toggleCls{
+		display:initial;
+	}
+}
