@@ -1,0 +1,218 @@
+/* header */
+
+
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: Roboto;
+}
+
+img {
+	height: auto;
+	max-width : 100%;
+}
+
+header {
+	position: relative;
+}
+
+nav {
+	width: 60%;
+	position: absolute;
+	top: 85px;
+	right: 0;
+}
+
+nav ul {
+	margin:0;
+	padding: 0;
+	display: flex;
+}
+
+nav li{
+	list-style-type: none;
+	margin: 0 2vw;
+	font-size: 1.1rem;
+}
+
+a {
+	text-decoration: none;
+	color: #000000;
+	transition-property: color;
+	transition-duration: 0.5s;
+}
+
+a:hover, a:focus, a:active {
+	color: white;
+}
+
+
+.kalmontrescue {
+	position: absolute;
+	top: 85px;
+	left: 240px;
+	font-weight: bolder;
+	font-size: 1.3rem;
+}
+
+.banner-text {
+	position: absolute;
+	bottom: 2rem;
+	left: 10rem;
+}
+
+h1 {
+	font-size: 2.2rem;
+}
+
+h6 {
+	font-weight: lighter;
+	font-size: 1rem ;
+}
+
+
+/*body - activities.html */
+
+
+#gallery{
+	background-color: #F8F7F7;
+	background-size: 100%;
+}
+
+h4{
+	transition-property: : none;
+	color: black;
+}
+
+p, h2, h3{
+	color: black;
+	transition-property: none;
+}
+
+figure{
+	margin-left: 10rem;
+	margin-right: 10rem;
+}
+
+h2{
+	margin: 3rem 10rem 3rem 10rem;
+	font-size: 36px;
+}
+
+h3{
+	font-size: 30px;
+	padding: 0px;
+	margin-top: 3rem;
+}
+
+h4{
+	font-size: 18px;
+	font-weight: 300;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 0px;
+}
+
+#activities{
+	margin-left: 10rem;
+	margin-right: 10rem;
+	padding: 0;
+	overflow: hidden;
+}
+
+.column1{
+	float: left;
+	width: 30%;
+}
+
+#p1, #p2{
+	margin-right: 2.5rem;
+}
+
+
+/* footer */
+
+
+footer{
+	height: 300px;
+	margin-top: 100px;
+	margin-bottom: 0px;
+	left: 0px;
+	padding: 0px;
+	background-image: url(../img/footer.jpg);
+	background-repeat: repeat-y;
+	background-size: 100%;
+}
+
+footer h4{
+	font-size: 12px;
+	margin-bottom: 2em;
+}
+
+footer p{
+	font-size: 10px;
+	margin-top: 0.7em;
+}
+
+.footer-col{
+	margin-left: 100px;
+	padding-top: 140px;
+}
+
+.column2{
+	width: 180px;
+	margin-right: 60px;
+	float: left;
+}
+
+footer img{
+	height: 45px;
+	width: 45px;
+}
+
+footer a{
+	color: #000000;
+	font-size: 10px;
+	text-align: right;
+	margin-right: 40px;
+	margin-bottom: 10px;
+	padding: 0px;
+	float: right;
+}
+
+
+/*body - training.html */
+
+
+#signup{
+	margin: 4rem 10rem 3rem 10rem;
+	border-style: solid;
+	border-color: #066499;
+	border-radius: 5px;
+	padding: 30px 60px 60px 60px;
+}
+
+#signup p{
+	border-style: solid;
+	border-color:  #066499;
+	border-width: 2px;
+	border-radius: 5px;
+	padding: 10px 15px 10px 15px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+#text, #program{
+	margin: 4rem 10rem 3rem 10rem;
+	padding: 0;
+}
+
+#program{
+	line-height: 2em;
+}
+
+button{
+	padding: 5px 15px 5px 15px;
+	margin-top: 15px;
+	margin-bottom: 10px;
+}

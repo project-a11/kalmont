@@ -1,0 +1,625 @@
+img {
+	height: auto;
+	max-width : 100%;
+}
+
+h2{
+	color: rgb(44, 117, 175);
+	font-weight: bold;
+	font-size: 1.9em;
+	transition-property: none;
+	margin-top: 7rem;
+	margin-bottom: 0.5em;
+
+}
+
+h5{
+	margin-bottom: 0.5em;
+	margin-top: 1em;
+	font-size: 1.2em;
+}
+
+h4{
+	transition-property: none;
+	color: black;
+}
+
+h3{
+	font-size: 1.6em;
+}
+
+p {
+	font-weight: lighter;
+	margin-top: 4em;
+	text-align: justify;
+	line-height: 1.6;
+}
+
+.first p {
+	margin-top: 0.3em;
+	font-size: 1em;
+}
+
+
+p, h3{
+	color: black;
+	transition-property: none;
+}
+
+.main-container{
+	display:flex;
+	justify-content:center
+}
+
+.main-item{
+	padding: 2em;
+	width:100%;
+	max-width: 1440px;
+}
+
+.first-container {
+	margin: 100px auto 50px auto;
+	display:flex;
+	flex-wrap: wrap;
+}
+
+.first {
+	flex: 7;
+	margin-top: 2em;
+	flex-direction: column;
+}
+
+.middle {
+	padding: 0.3em;
+	flex: 0.8;
+}
+
+.second {
+	flex: 6;
+	flex-direction: column;
+	margin-bottom: 1em;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.third {
+	flex: 6;
+	flex-direction: column;
+	margin-bottom: 1em;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.first-c {
+	padding: 1.8em;
+
+}
+
+.first-c p {
+	font-size: 0.5em;
+	margin-top: 1px;
+}
+
+.second-c {
+	margin-left: 2em;
+	flex: 2;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.second-c1 {
+	flex: 1;
+	order:1;
+	font-size: 4.2em;
+	margin-top: 0.2em;
+}
+
+.second-c11 {
+	flex: 1;
+	order:1;
+	margin-top:0.6em;
+	font-size: 2.7em;
+	color: green;
+	margin-right: 1em;
+	margin-bottom: 0.7em;
+}
+
+.second-c2 {
+	flex:1;
+	order:2;
+	margin-top: 0em;
+	margin-right: 1em;
+
+}
+
+.second-c22 {
+	flex:1;
+	order:2;
+	margin-right: 1em
+
+}
+
+.third-c {
+	margin-left: 2em;
+}
+
+.third-cc {
+	margin-left: 3em;
+	font-size: 0.7em;
+	margin-top: -5em;
+}
+
+.third-c1 {
+	margin-left: 2em;
+}
+
+.third-c p{ 
+	font-size: 0.7em;
+	margin-top: -1em;
+ }
+
+.fourth-c {
+	padding: 2em;
+}
+
+.fourth-c p{
+	font-size: 0.9em;
+	max-width: 23em;
+	margin-top: 1.2em;
+
+}
+
+.paragraph {
+	flex-direction:column;
+	flex:3;
+	max-width: 45em;
+	margin: 5em auto 5em auto;
+}
+
+.paragraph p{
+	font-size: 1.2em;
+}
+
+.container-box-1 {
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #F8F7F7;
+	margin-bottom: 4em;
+	margin-top:2em;
+
+}
+
+.container-box-2 {
+	background-color: #F8F7F7;
+	margin-bottom: 4em;
+
+}
+
+.box{
+	margin-left: auto;
+	margin-right: auto;
+	display:flex;
+	flex-wrap: wrap;
+}
+
+.box-item-1 {
+	flex-direction: column;
+	flex: 55%;
+	margin-bottom: 5em;
+}
+
+.box-item-2 {
+	flex-direction: column;
+	flex: 20%;
+	margin-top: 8em ;
+	margin-left:3em;
+	margin-right: 3em;
+}
+
+.second-container {
+	display:flex;
+	flex-wrap: wrap;
+	margin: 1em auto 0em auto;
+}
+
+.box-c-1 {
+	flex-direction: column;
+	flex: 1 1 16%;
+	/* The following box-shadow css property which is used all throughout my project has been taken from W3SCHOOLS.COM */
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.box-c-2{
+	flex-direction: column;
+	flex: 1 1 12%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.boxitem-1{
+	width:100%;
+    height:auto;
+    object-fit:cover;
+
+}
+
+.boxitem-2 {
+	margin: 2.5em 3em 2.5em 3em;
+}
+
+.middle-1 {
+	flex: 0.3;
+}
+
+.boxitem-2 p {
+	font-size: 0.85em;
+	margin-top: 1.9em;
+	margin-bottom: 1.5em;
+}
+
+.boxitem-2 h3 {
+	font-size: 1.3em;
+}
+
+.button {
+	border-radius: 25px;
+	border-color: rgb(44, 117, 175);
+	border-width: thin;
+	background-color: white;
+	width: 18.5em;
+	height: 2.5em;
+	margin-top: 1em;
+	font-size: 0.8em;
+	font-weight: normal;
+	text-align: center;
+	transition-property: color;
+	transition-duration: 0.3s;
+}
+
+.button:hover, .button:focus, .button:active {
+	color: white;
+	background-color: rgb(44, 117, 175);
+}
+
+.button1 {
+	border-radius: 25px;
+	border-color: rgb(44, 117, 175);
+	border-width: thin;
+	background-color: #F8F7F7;
+	width: 10em;
+	height: 2.5em;
+	margin-top: 1em;
+	text-align:center;
+	font-size: 0.85em;
+	transition-property: color;
+	transition-duration: 0.3s;
+}
+
+.button1:hover, .button1:focus, .button1:active {
+	color: white;
+	background-color: rgb(44, 117, 175);
+}
+
+.button2 {
+	border-radius: 25px;
+	border-color: rgb(44, 117, 175);
+	border-width: thin;
+	background-color: white;
+	width: 10em;
+	height: 2.5em;
+	font-size: 0.85em;
+	text-align: center;
+	transition-property: color;
+	transition-duration: 0.3s;
+
+}
+
+.button2:hover, .button2:focus, .button2:active {
+	color: white;
+	background-color: rgb(44, 117, 175);
+}
+
+.button3 {
+	border-radius: 25px;
+	border-color: rgb(44, 117, 175);
+	border-width: thin;
+	background-color: white;
+	width: 10em;
+	height: 2.5em;
+	font-size: 0.9em;
+	text-align: center;
+	transition-property: color;
+	transition-duration: 0.3s;
+
+}
+
+.button3:hover, .button2:focus, .button2:active {
+	color: white;
+	background-color: rgb(44, 117, 175);
+}
+
+.boxx {
+	display:flex;
+	flex:1;
+	flex-wrap: wrap;
+}
+
+.paragraph {
+	flex:11;
+	flex-direction: column;
+	max-width: 49em;
+}
+
+.paragraphh {
+	flex:11;
+	flex-direction: column;
+	max-width: 57.5em;
+}
+
+#kalmontteam {
+	margin-bottom: 2em;
+	margin-top: 5em;
+}
+
+.space {
+	flex:2;
+	flex-direction: column;
+}
+
+.pic-1 {
+	opacity: 90%;
+	max-width: 100%;
+	height: auto;
+}
+
+@media (max-width: 55em) {
+	
+	.box-c-1 {
+		flex-basis: 100%;
+	}
+
+	.main-item{
+		padding: 0em;
+		width:100%;
+		flex-basis: 100%;
+    }
+
+
+	h2{
+		margin-top:4rem;
+		font-size:1.6em;
+	}
+
+	.paragraph h3{
+		margin-top: 2em;
+		margin-bottom: -1em;
+		font-size: 1.3em;
+
+	}
+
+	.first-container{
+		margin-bottom:1em;
+	}
+
+	.first {
+		flex-basis: 100%;
+		margin-top: 3.5em;
+		margin-left:1em;
+		font-size: 0.7em;
+	}
+
+	.first-c h5{
+		font-size: 1.2em;
+		text-align: center;
+	}
+
+	.first-c p {
+		font-size: 0.8em;
+		text-align: center;
+	}
+
+	.second-container{
+		margin-top:0.5em;
+	}
+
+	.second-c{
+		margin-top:-2em;
+		display:flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		flex: 3;
+	}
+
+	.second-c1{
+		text-align: center;
+		font-size: 3.5em;
+	}
+
+	.second-c11{
+		text-align: center;
+		font-size: 2.5em;
+		margin-top:0.2em;
+
+	}
+
+	.second-c2{
+		align-self: center;
+		margin-right:0em;
+		margin-top: 0.5em;
+		width: 8.5em;
+	}
+
+	.second-c22{
+		align-self: center;
+		margin-top: -0.4em;
+		width: 8em;
+	}
+
+	.third-c p{
+		font-size: 0.8em;
+		font-weight:bolder;
+		margin-top:1.3em;
+		margin-left:-0.9em;
+		text-align: center;
+	}
+
+	.third-cc p{
+		font-size: 1.2em;
+		font-weight:bolder;
+		margin-top:4em;
+		margin-left:-1.9em;
+		text-align: center;
+	}
+
+	.fourth-c{
+		margin-top:-1em;
+		max-width:100%;
+		margin-right:auto;
+		margin-left:auto;
+
+	}
+
+	.fourth-c p{
+		font-size: 0.8em;
+		max-width: 40em;
+		margin-top: 0;
+
+    }
+
+	.middle-1 {
+		flex-basis:100%;
+		padding:1em;
+
+	}
+
+	.second {
+		flex-basis: 100%;
+		margin-left:0.7em;
+		margin-right: 0.7em;
+	}
+
+	.third {
+		flex-basis: 100%;
+		margin-left:0.7em;
+		margin-right: 0.7em;
+	}
+
+	.button {
+	    width: 100%;
+    }
+
+	.box-item-1 {
+		flex-basis: 100%;
+		margin-top: -1em;
+		padding: 0em;
+		margin-left: 1em;
+		margin-right: 1em;
+		font-size:1em;
+
+	}
+
+	.box-item-1 h2{
+		margin-bottom:-1em;
+	}
+
+	.paragraph {
+		flex-basis: 100%;
+		padding: 0em;
+		margin-top:1em;
+		margin-left: 1em;
+		margin-right: 1em;
+		margin-bottom:0em;
+		font-size:0.9em;
+
+	}
+
+	.box-item-2 {
+		flex-basis: 100%;
+		width: 100%;
+		margin-top:-2em;
+		margin-bottom: 2em;
+		margin-left:1em;
+		margin-right:1em;
+
+	}
+
+	.fourth-c {
+		flex-basis: 100%;
+	}
+
+	.boxitem-2 {
+		flex-basis: 100%;
+		margin: 0;
+		margin-left: 1em;
+		margin-right: 1em;
+		margin-top:2em;
+		margin-bottom:1em;
+	}
+
+	.boxitem-2 p {
+		font-size:1em;
+	}
+
+	.button1{
+		margin-top: -2em;
+	}
+
+	.container-box-1 {
+		margin-bottom: 2em;
+	}
+
+	.container-box-2{
+		margin-bottom:2em;
+	}
+
+	#recentactivities h3{
+		font-size: 1em;
+	}
+
+	#training h3{
+		font-size: 1em;
+	}
+
+	.button2 {
+		font-size: 0.8em;
+		margin-bottom:0.5em;
+    }
+
+    .paragraphh {
+    	flex-basis:100%;
+    	margin-left:1em;
+    	margin-right: 1em;
+    }
+
+    .paragraphh  p{
+    	margin-top: 2em;
+    	font-size: 0.9em;
+    }
+
+    #kalmontteam {
+	    margin-bottom: 0em;
+	    margin-top: 2em;
+    }
+
+    .img-x{
+    	flex-basis:100%;
+    	width: 100%;
+    	margin-right: 1em;
+    	margin-left: 1em;
+    	margin-bottom: 1em;
+    }
+
+    .paragraphh h3 {
+	    font-size: 1.2em;
+    }
+
+    .box-c-1{
+    	margin-left:1em;
+    	margin-right:1em;
+    }
+
+    .box-c-2 {
+    	margin-left:1em;
+    	margin-right:1em;
+    }
+}
